@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="./css/login.css">
+  <title>Log in</title>
+</head>
+<body>
+  <form action="action_page.php" method="post">
+    <div class="imgcontainer">
+      <img src="imagenes/avatardog.png" alt="Avatar" class="avatar">
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Usuario</b></label>
+      <input type="text" id="usuario" placeholder="Enter Username" name="uname" required>
+  
+      <label for="psw"><b>Clave</b></label>
+      <input type="password" id="pass" placeholder="Enter Password" name="psw" required>
+  
+      <button type="submit" onclick="login()">Iniciar sesión</button>
+      
+    </div>
+  
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" class="cancelbtn">Cancelar</button>
+      <span class="psw">Olvidó su clave <a href="#">Clave?</a></span>
+    </div>
+  </form>
+
+  <script>
+function login(){
+  if (document.getElementById("usuario").value == ""
+  || document.getElementById("pass").value == ""){
+    alert("Usuario o clave vacíos")
+  }
+}
+
+
+  </script>
+</body>
+</html>

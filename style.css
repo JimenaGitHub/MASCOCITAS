@@ -1,0 +1,173 @@
+* {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-align:center;
+    
+}
+
+a {
+    color: rgb(235, 157, 197);
+    text-decoration: none;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 20px 10px 20px 10px;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 16px;
+    padding: 20px 20px;
+    
+}
+
+@media(max-width: 768px){
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 28px;
+    }
+}
+
+.header{
+    padding: 40px 10px 40px 10px ;
+    background-color: rgb(235, 157, 197);
+    color: aliceblue;
+    text-align: center;
+}
+
+.menu{
+    padding: 10px 10px ;
+    font-size: 1.5rem;
+    background-color: rgb(16, 10, 1);
+    color: aliceblue;
+    text-align: center;
+}
+
+.menu a {
+    color: aliceblue;
+}
+
+.somos{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.somos imagenes{
+    padding: 30px;
+    max-width: 40%;
+    line-height: 0px;
+}
+
+@media(max-width: 768px) {
+    .somos imagenes {
+        max-width: 100%;
+    }   
+}
+
+.mascotas {
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding: 10%;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .gallery  img {
+    max-width: 20%;
+} */
+
+.formulario {
+    padding: 100px 10px ;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    .formulario {
+        max-width: 90%;
+        padding: 5%;
+       
+    }
+
+    .formulario input, 
+    .formulario textarea {
+        max-width: 80%;
+    }
+}
+
+.footer{
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+    background-color: rgb(235, 157, 197);
+    border-top: rgb(254, 254, 254) 1px solid;
+    
+   
+
+}
+
+.navbar {
+    /* background-color: rgb(235, 157, 197) !important; */
+    margin: 0px;
+    background:linear-gradient(rgb(235, 157, 197), #FFFFFF);
+    
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+.hearts {
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+
+.galeria {
+    background:linear-gradient(#FFFFFF, rgb(235, 157, 197));
+}
+
+
+.size-letter {
+    padding: 20px 10%;
+    font-size: 30px;
+    text-align: justify;
+   
+}
+
+.subhead-article{
+    padding: 20px 10%;
+    font-size: 28px;
+    text-align: justify;
+
+}
+
+.txt-article{
+    padding: 20px 10%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.like {
+    width: 40px;
+    margin: 10px;
+}
+
+.visible{
+    display: block;
+}
+
+.invisible{
+    display: none;
+}
+
+.article-list{
+    padding: 50px 10%;
+}
